@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Matching Game</title>
+        <link rel="icon" type="image" href="smile.png" />
+    </head>
+    <style>
+        div,img{position: absolute;}
+        img{height: auto; width: auto;}
+    </style>
+    <body id="theBody" onload="show_pattern()">
+        <h2>Matching Game</h2>
+        <p>Click on the extra ssmiling face on the left</p>
+        <div style="left:47%; top:25px; font-weight: bold; font-size:22px;">Your Score: <span id="score">0</span></div>
+        <div style="left:88%; top:25px; font-weight: bold; font-size:20px;">Timer: <span id="time"></span></div>
+        <div id="leftDiv"></div>
+        <div style="width:5px;
+    background-color:#000;
+    top:60px;
+    left: 50%;
+    bottom:0;"></div>
+        <div id="rightDiv"></div>
+        <script src="match.js"></script>
+    </body>
+</html>
